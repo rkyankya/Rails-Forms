@@ -1,2 +1,8 @@
 <h1>Drivers#show</h1>
 <p>Find me in app/views/drivers/show.html.erb</p>
+
+<ul>
+    <% @drivers.each do |driver| %>
+        <li><%= driver.name %>  </li>
+    <% end %>
+</ul>

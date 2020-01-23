@@ -17,6 +17,10 @@ class DriversController < ApplicationController
   def show
   end
 
+  def destroy
+    @driver.destroy(params[:id])
+  end
+
   private
   def set_driver
     @driver = Driver.find(params[:id])
