@@ -25,6 +25,7 @@ gem 'faker'
 gem 'better_errors'
 gem 'hirb'
 gem 'bootstrap', '~> 4.4.1'
+gem 'jquery-rails'
 
 # Use Active Storage variant
 # gem 'image_processing', '~> 1.2'
